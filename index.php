@@ -1,5 +1,5 @@
 <?php
-include 'defence/index.php';
+#include 'defence/index.php';
 ?>
 <?php
 
